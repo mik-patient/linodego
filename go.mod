@@ -1,13 +1,13 @@
 module github.com/linode/linodego
 
 require (
-	github.com/go-resty/resty/v2 v2.1.1-0.20191201195748-d7b97669fe48
+	github.com/go-resty/resty/v2 v2.7.0
 	github.com/google/go-cmp v0.5.7
 	github.com/stretchr/testify v1.7.1 // indirect
 	gopkg.in/ini.v1 v1.66.6
 )
 
-require golang.org/x/net v0.0.0-20190628185345-da137c7871d7 // indirect
+require golang.org/x/net v0.0.0-20211029224645-99673261e6eb // indirect
 
 go 1.18
 
